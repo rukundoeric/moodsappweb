@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "npm": "6.4.1",
+    "node": "10.15.1"
+  },
   "scripts": {
     "test": "mocha server/test --recursive",
     "dev-start": "babel-watch index.js",
