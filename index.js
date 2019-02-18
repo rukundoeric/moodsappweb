@@ -1,9 +1,6 @@
-const express = require('express');
-const path    =require('path');
-const app = express();
-require('dotenv').config();
-const PORT =5432;
-app.set('view engine','ejs');
-app.set('views', path.resolve(__dirname, 'ui', 'src'));
-app.get('/',(req, res) => { res.render('index.ejs')});;
-app.listen(PORT, () =>console.log("Server is running on post "+PORT));
+// Transpile all code following this line with babel and use 'env' (aka ES6) preset.
+require('babel-register')({
+    presets: [ 'env' ]
+})
+// Import the rest of our application.
+module.exports = require('./start.js')
