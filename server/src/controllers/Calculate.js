@@ -1,7 +1,5 @@
 class Calculate{
    constructor(){
-       this.number1=0;
-       this.number2=0;
    }
    getSum(a,b){
        return a+b;
