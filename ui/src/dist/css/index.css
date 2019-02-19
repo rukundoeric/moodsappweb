@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url("../fonts/Roboto-Medium.ttf");
+}
+body{
+	margin: 0;
+	height: 97.7vh;
+	background:	url("../images/wallpaper2.jpg");
+	background-size: cover;
+	background-repeat: repeat;
+	background-position: center;
+}
+.container{
+position: fixed;
+height: 100%;
+width: 100%;
+}
+.top-header{
+	width: 100%;
+	height: 60px;
+	position: absolute;
+	background-color: white;
+
+}
+.icon-logo{
+	margin-top:7px;
+	width: 120px;
+	height:45px;
+	}
+.top-icon-div{
+	margin-left: 120px;
+	width: 130px;
+	height: 60px;
+	border: 0px solid gray;
+	float: left;
+	 display: inline-block;
+}
+.div-container{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 1300px;
+	margin-top: 300px;
+  height: 400px;
+  border-radius: 20px;
+  background-color: white;
+
+}
+.link-div{
+	float: left;
+	 display: inline-block;
+	 width: 130px;
+	 height: 60px;
+	 border: 0px solid gray;
+	 display: -webkit-box;
+	 display: -ms-flexbox;
+	 display: -webkit-flex;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+}
+.link-div a{
+	color: #6E6E6E;
+	font-family: Roboto-Medium;
+	text-decoration: none;
+}
+.link-div a:hover{
+ color: #287AE6;
+}
+.link-div.active a{
+ color: #287AE6;
+}
+.link-div.active{
+ border-bottom-width:2px;
+ border-bottom-color:#287AE6;
+}
+.buttons-join{
+  float: right;
+   display: inline-block;
+   width: 150px;
+   height: 60px;
+   border: 0px solid gray;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.buttons-join.login{
+  margin-right: 90px;
+}
+.buttons-join.login button{
+  color: white;
+  font-family: Roboto-Medium;
+  background-color:#287AE6;
+  border-radius: 10px;
+  padding: 10px;
+  border-width: 0;
+  width: 80px;
+}
+.buttons-join.sinup button{
+  color: #287AE6;
+  font-family: Roboto-Medium;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  border-width: 0;
+  width: 80px;
+}

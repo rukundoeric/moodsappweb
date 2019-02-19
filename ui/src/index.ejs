@@ -1,17 +1,42 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-    </head>
-    <body>
+  <head>
+    <meta charset="utf-8">
+    <base href="/" target="_blank">
+    <link rel="shortcut icon" href="/dist/images/icons/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/dist/css/index.css" type="text/css">
+    <title>SendIT</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="top-header">
+      <div class="top-icon-div">
+           <img class="icon-logo" src="/dist/images/logo.png"/>
+      </div>
+      <div class="link-div service active">
+        <a href="index.ejs">Services</a>
+      </div>
+      <div class="link-div docs">
+        <a href="docs.ejs">Docs</a>
+      </div>
+      <div class="link-div Support">
+        <a href="support.ejs">Support</a>
+      </div>
+      <div class="buttons-join login">
+        <form  action="pages/login.ejs">
+          <button name="button">Login</button>
+        </form>
+      </div>
+       <div class="buttons-join sinup">
+         <form action="pages/sinup.ejs">
+           <button name="button">SinUp</button>
+         </form>
+      </div>
 
+      </header>
+    <div class="div-container">
 
-<div id="demo" onclick="javascript:getPhoto();">click here to load photo</div>
-
-</body>
-        <div class="">
-        <h1>Welcome To My Appp</h1>
-        </div>
-    </body>
+    </div>
+    </div>
+  </body>
 </html>
