@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="shortcut icon" href="../dist/images/icons/icon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../dist/css/sinup.css">
+    <meta charset="utf-8">
+    <script type="text/javascript" src="../dist/js/dbmanager.js"></script>
+    <title></title>
+  </head>
+  <body>
+      <div class="container">
+             <div class="leftSideNav">
+                <div class="iconDiv">
+                  <img src="../dist/images/logo.png" alt=""/>
+                </div>
+                <div class="titleDiv">
+                    <span>Create your sentIt Account</span>
+                </div>
+                <div class="fieldsContant">
+                  <table border="0">
+                    <tr>
+                      <td class="fielsdTd"><input id="firstname" class="textFields two" type="text" placeholder="Firstname" name="firstname" value=""></td>
+                      <td class="fielsdTd"><input id="lastname" class="textFields two" type="text" placeholder="Lasrname" name="lastname" value=""></td>
+                    </tr>
+                    <tr><td><br></td></tr>
+                    <tr>
+                      <td colspan="2" class="fieldsInstrution">You have to enter the valid Email</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" class="fielsdTd"><input id="email" class="textFields" type="text" placeholder="Email/Phone" name="email" value=""></td>
+                    </tr>
+                    <tr><td><br></td></tr>
+                    <tr>
+                      <td colspan="2" class="fieldsInstrution">Use 8 or more characters with a mix of letters, numbers & symbols</td>
+                    </tr>
+                    <tr>
+                      <td class="fielsdTd"><input id="password" class="textFields two" type="text" placeholder="Password" name="password" value=""></td>
+                      <td class="fielsdTd"><input id="confirm" class="textFields two" type="text" placeholder="Confirm" name="confirm" value=""></td>
+                    </tr>
+                    <tr><td><br></td></tr>
+                    <tr>
+                      <td><button class="sinUpActionBtn sinin" type="button" name="button">Login instead</button></td>
+                      <td><button class="sinUpActionBtn sinup" type="button" name="button" onclick="CreateUser()">Create Account</button></td>
+                    </tr>
+                  </table>
+                </div>
+             </div>
+             <div class="rigthSideNav">
+                <img class="SinUpLogoIcon" src="../dist/images/sinuplogo.png" alt="">
+             </div>
+      </div>
+  </body>
+</html>

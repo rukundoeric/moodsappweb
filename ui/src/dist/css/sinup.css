@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Roboto-cons-light';
+    src: url("../fonts/Roboto-Medium.ttf");
+}
+.container{
+  width: 850px;
+  height: 545px;
+  background: white;
+  border-radius: 10px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 7px;
+   -webkit-box-shadow:0px 0px 06px #A3A3A3;
+  -moz-box-shadow:0px 0px 6px #A3A3A3;
+}
+.leftSideNav{
+  width: 420px;
+  height: 540px;
+  border: 0px solid gray;
+}
+.rigthSideNav{
+  float: right;
+   display: inline-block;
+  width: 420px;
+  height: 540px;
+  margin-left: 5px;
+  margin-top: -540px;
+  border: 0px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconDiv{
+  padding: 20px;
+}
+.iconDiv img{
+  width: 120px;
+  height: 60px;
+}
+.titleDiv{
+  padding-left: 20px;
+}
+.titleDiv span{
+  font-size: 20px;
+  font-family:Roboto-cons-light;
+}
+.textFields{
+  width: 360px;
+  height: 30px;
+  border: 1px solid #A3A3A3;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-family: Roboto-cons-light;
+}
+.textFields.two{
+  width: 170px;
+}
+.fieldsContant{
+  padding: 20px;
+}
+.fielsdTr{
+  padding-top: 5px;
+}
+.sinUpActionBtn{
+  width: 180px;
+  height: 40px;
+  border:0px;
+  border-radius: 5px;
+  font-family: Roboto-cons-light;
+}
+.sinUpActionBtn.sinin{
+    float: left;
+    background-color: white;
+    color: #287AE6;
+}
+.sinUpActionBtn.sinup{
+  float: right;
+  background: #287AE6;
+  color: white;
+}
+.fieldsInstrution{
+  font-size: 13px;
+  color: #A3A3A3;
+  font-family: Roboto-cons-light;
+}
+.SinUpLogoIcon{
+width: 200px;
+height: 200px;
+}
