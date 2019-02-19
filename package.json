@@ -10,7 +10,8 @@
   "scripts": {
     "test": "mocha server/test --recursive",
     "dev-start": "babel-watch index.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "heroku-postbuild": "npm install --production"
   },
   "author": "Rukundo Eric Prestein",
   "license": "ISC",
@@ -36,5 +37,11 @@
     "nodemon": "*",
     "coveralls": "^3.0.2",
     "heroku-pg-extras": "^1.2.0"
-  }
+},
+  "keywords": [
+   "node",
+   "heroku",
+   "express"
+ ],
+ "license": "MIT"
 }
