@@ -5,5 +5,5 @@
 
 ## Click on the icon below to run the app
 
-<a href="https://moodsappwebapp.herokuapp.com/"><img width="50px" height="50px" src="https://s18955.pcdn.co/wp-content/uploads/2018/02/facebook-messenger-1.png"></a>
+<a href="https://moodsappwebapp.herokuapp.com/"><img width="50px" height="50px" src="https://firebasestorage.googleapis.com/v0/b/webtest-1995b.appspot.com/o/images%2Flogo.png?alt=media&token=7f378bf4-1466-4875-bbca-8d69290986e1"></a>
 
